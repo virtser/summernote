@@ -6,7 +6,7 @@
  * Copyright 2013-2015 Alan Hong. and other contributors
  * summernote may be freely distributed under the MIT license./
  *
- * Date: 2016-01-14T13:17Z
+ * Date: 2016-03-22T20:11Z
  */
 (function (factory) {
   /* global define */
@@ -6014,7 +6014,7 @@
                    '<input class="note-image-input form-control" type="file" name="files" accept="image/*" multiple="multiple" />' +
                    imageLimitation +
                  '</div>' +
-                 '<div class="form-group" style="overflow:auto;">' +
+                 '<div id="note-group-select-image-url" class="form-group" style="overflow:auto;">' +
                    '<label>' + lang.image.url + '</label>' +
                    '<input class="note-image-url form-control col-md-12" type="text" />' +
                  '</div>';
